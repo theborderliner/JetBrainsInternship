@@ -1,0 +1,17 @@
+.first_screen_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first_screen_content > .container {
+    padding: 0;
+}
+
+.card_column {
+    padding: 0;
+}
+
+.message_row{
+    margin-top: 8vh;
+}
