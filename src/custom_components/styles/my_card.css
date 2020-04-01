@@ -3,7 +3,7 @@
 }
 
 .my_card .row > div {
-    background-color: #07a562;
+    background-color: var(--theme_color);
 }
 
 .myDecsription {
