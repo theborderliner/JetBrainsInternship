@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/JetBrainsInternship/static/css/main.f2fcbdcc.chunk.css",
+    "main.js": "/JetBrainsInternship/static/js/main.f0220324.chunk.js",
+    "main.js.map": "/JetBrainsInternship/static/js/main.f0220324.chunk.js.map",
+    "runtime-main.js": "/JetBrainsInternship/static/js/runtime-main.3baa9828.js",
+    "runtime-main.js.map": "/JetBrainsInternship/static/js/runtime-main.3baa9828.js.map",
+    "static/css/2.de424728.chunk.css": "/JetBrainsInternship/static/css/2.de424728.chunk.css",
+    "static/js/2.1ac45cae.chunk.js": "/JetBrainsInternship/static/js/2.1ac45cae.chunk.js",
+    "static/js/2.1ac45cae.chunk.js.map": "/JetBrainsInternship/static/js/2.1ac45cae.chunk.js.map",
+    "index.html": "/JetBrainsInternship/index.html",
+    "precache-manifest.adc8bd148ae2f93fb44e51f4b377fd8d.js": "/JetBrainsInternship/precache-manifest.adc8bd148ae2f93fb44e51f4b377fd8d.js",
+    "service-worker.js": "/JetBrainsInternship/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/JetBrainsInternship/static/css/2.de424728.chunk.css.map",
+    "static/css/main.f2fcbdcc.chunk.css.map": "/JetBrainsInternship/static/css/main.f2fcbdcc.chunk.css.map",
+    "static/js/2.1ac45cae.chunk.js.LICENSE.txt": "/JetBrainsInternship/static/js/2.1ac45cae.chunk.js.LICENSE.txt",
+    "static/media/me_site.jpg": "/JetBrainsInternship/static/media/me_site.446f95ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3baa9828.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.1ac45cae.chunk.js",
+    "static/css/main.f2fcbdcc.chunk.css",
+    "static/js/main.f0220324.chunk.js"
+  ]
+}
