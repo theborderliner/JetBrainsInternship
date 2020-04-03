@@ -14,7 +14,7 @@ class MeScreen extends React.Component<Props> {
 
     render() {
         return (
-            <Container fluid className="screen">
+            <Container fluid className="me_screen">
                 <Row noGutters>
                     <Col lg={2} md={2} sm={0} xs={0}/>
                     <Col className="first_screen_content" lg={8} md={8} sm={12} xs={12}>

@@ -1,6 +1,6 @@
 .topBar {
     height: 4px;
-    background-color: #07a562;
+    background-color: var(--theme_color);
 }
 
 .my_message {
@@ -28,14 +28,18 @@
     padding-bottom: 15px;
 }
 
-.my_message_buttons > .row {
-    align-items: center;
+.my_message_buttons > .row > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #view_my_projects{
-    background-color: #07a562;
+    background-color: var(--theme_color);
+    font-size: 17px;
 }
 
 #view_my_github{
-    background-color: #07a562;
+    background-color: var(--theme_color);
+    font-size: 17px;
 }

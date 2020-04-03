@@ -8,7 +8,7 @@ interface Props {
     subtitle: string,
     fromTo: string,
     comment: string,
-    link?: string ,
+    link?: string,
 }
 
 class EducationalWindow extends React.Component<Props> {
@@ -36,8 +36,12 @@ class EducationalWindow extends React.Component<Props> {
                                 {this.props.fromTo}
                             </div>
                         </Row>
+                        <Row noGutters>
+                            <div className="eduWindowComment">
+                                {this.props.comment}
+                            </div>
+                        </Row>
                     </Container>
-                    <div className="eduWindowComment"></div>
                 </div>
             </div>
         );

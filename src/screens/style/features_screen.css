@@ -12,7 +12,7 @@
 
 .educationTitleText {
     color: #686868;
-    font-size: 28px;
+    font-size: calc(18px + (28 - 18) * ((100vw - 576px) / (1980 - 576)));
 }
 
 .educationTitleContainer > .row {
