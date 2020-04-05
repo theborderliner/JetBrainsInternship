@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/JetBrainsInternship/static/css/main.186201ff.chunk.css",
-    "main.js": "/JetBrainsInternship/static/js/main.ae47eac6.chunk.js",
-    "main.js.map": "/JetBrainsInternship/static/js/main.ae47eac6.chunk.js.map",
+    "main.css": "/JetBrainsInternship/static/css/main.8424f9c1.chunk.css",
+    "main.js": "/JetBrainsInternship/static/js/main.8142c207.chunk.js",
+    "main.js.map": "/JetBrainsInternship/static/js/main.8142c207.chunk.js.map",
     "runtime-main.js": "/JetBrainsInternship/static/js/runtime-main.3baa9828.js",
     "runtime-main.js.map": "/JetBrainsInternship/static/js/runtime-main.3baa9828.js.map",
     "static/css/2.de424728.chunk.css": "/JetBrainsInternship/static/css/2.de424728.chunk.css",
     "static/js/2.a537044a.chunk.js": "/JetBrainsInternship/static/js/2.a537044a.chunk.js",
     "static/js/2.a537044a.chunk.js.map": "/JetBrainsInternship/static/js/2.a537044a.chunk.js.map",
     "index.html": "/JetBrainsInternship/index.html",
-    "precache-manifest.4c7ebdeead5884c415c452b2bdd1af77.js": "/JetBrainsInternship/precache-manifest.4c7ebdeead5884c415c452b2bdd1af77.js",
+    "precache-manifest.da42401c26047c3cfd160d39b8d4d007.js": "/JetBrainsInternship/precache-manifest.da42401c26047c3cfd160d39b8d4d007.js",
     "service-worker.js": "/JetBrainsInternship/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/JetBrainsInternship/static/css/2.de424728.chunk.css.map",
-    "static/css/main.186201ff.chunk.css.map": "/JetBrainsInternship/static/css/main.186201ff.chunk.css.map",
+    "static/css/main.8424f9c1.chunk.css.map": "/JetBrainsInternship/static/css/main.8424f9c1.chunk.css.map",
     "static/js/2.a537044a.chunk.js.LICENSE.txt": "/JetBrainsInternship/static/js/2.a537044a.chunk.js.LICENSE.txt",
     "static/media/LogoB.png": "/JetBrainsInternship/static/media/LogoB.f0cc0922.png",
+    "static/media/me_screen.css": "/JetBrainsInternship/static/media/bg_edit.e0717ccd.jpg",
     "static/media/me_site.jpg": "/JetBrainsInternship/static/media/me_site.446f95ba.jpg",
     "static/media/one.png": "/JetBrainsInternship/static/media/one.5c934729.png",
     "static/media/three.png": "/JetBrainsInternship/static/media/three.10cd0ea9.png",
@@ -24,7 +25,7 @@
     "static/js/runtime-main.3baa9828.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.a537044a.chunk.js",
-    "static/css/main.186201ff.chunk.css",
-    "static/js/main.ae47eac6.chunk.js"
+    "static/css/main.8424f9c1.chunk.css",
+    "static/js/main.8142c207.chunk.js"
   ]
 }
