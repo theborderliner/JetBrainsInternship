@@ -1,4 +1,4 @@
-###Personal web site for JetBrains Internship
+### Personal web site for JetBrains Internship
 
 `src` folder contains TypeScript source files, where 
 * `media` - folder with media sources (images for instance)

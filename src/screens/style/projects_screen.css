@@ -1,16 +1,16 @@
-.booklet_screen {
+#booklet_screen {
     width: 100vw;
     height: 100vh;
     padding: 0;
 }
 
-.booklet_screen > .row {
+#booklet_screen > .row {
     height: 100%;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.booklet_screen > .row > div {
+#booklet_screen > .row > div {
     padding: 0;
 }
 

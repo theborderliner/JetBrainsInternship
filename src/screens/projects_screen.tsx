@@ -17,7 +17,7 @@ class ProjectsScreen extends React.Component<Props> {
 
     render() {
         return (
-            <Container className="booklet_screen" fluid>
+            <Container id="booklet_screen" fluid>
                 <Row>
                     <Col xl={5} lg={5} md={5} sm={12} xs={12} className="bookletIconColumn">
                         <div className="bookletIcon">
@@ -63,7 +63,7 @@ class ProjectsScreen extends React.Component<Props> {
                                         Backend-developer (me), but later team was reorganized and I`ve become
                                         developer for web apps platform which is called VK Mini apps.
                                         <div>
-                                            <a className="project_link" href="#">Link to the project</a>
+                                            <a className="project_link" href="https://vk.com/bklet">Link to the project</a>
                                         </div>
                                     </div>
                                 </Col>

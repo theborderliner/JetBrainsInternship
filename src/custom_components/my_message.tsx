@@ -30,10 +30,14 @@ class MyMessage extends React.Component<Props> {
                             <Row>
                                 <Col lg={1} md={1} sm={0} xs={0}/>
                                 <Col lg={5} md={5} sm={6} xs={6}>
-                                    <Button id="view_my_projects" variant="success">View my projects</Button>
+                                    <Button id="view_my_projects" variant="success" href="#booklet_screen">
+                                        View my projects
+                                    </Button>
                                 </Col>
                                 <Col lg={5} md={5} sm={6} xs={6}>
-                                    <Button id="view_my_github" variant="success">View my GitHub</Button>
+                                    <Button id="view_my_github" variant="success" href="https://github.com/theborderliner">
+                                        View my GitHub
+                                    </Button>
                                 </Col>
                                 <Col lg={1} md={1} sm={0} xs={0}/>
                             </Row>

@@ -30,25 +30,25 @@ function contactMe() {
         <Container className="contactMe">
             <Row noGutters>
                 <Col md={2} sm={2} xs={2}>
-                    <Button size="sm" className="contactMeVk">
+                    <Button size="sm" className="contactMeVk" href="https://vk.com/obliv1on">
                         <IoLogoVk/>
                     </Button>
                 </Col>
                 <Col md={1} sm={1} xs={1}/>
                 <Col md={2} sm={2} xs={2}>
-                    <Button size="sm" className="contactMeTelegram">
+                    <Button size="sm" className="contactMeTelegram" href="https://t.me/johan_DDC">
                         <FaTelegramPlane/>
                     </Button>
                 </Col>
                 <Col md={1} sm={1} xs={1}/>
                 <Col md={2} sm={2} xs={2}>
-                    <Button size="sm" className="contactMeInstagram" variant="light">
+                    <Button size="sm" className="contactMeInstagram" variant="light" href="https://instagram.com/johan_ddc">
                         <FaInstagram color="white"/>
                     </Button>
                 </Col>
                 <Col md={1} sm={1} xs={1}/>
                 <Col md={2} sm={2} xs={2}>
-                    <Button size="sm" className="contactMeGithub" variant="dark">
+                    <Button size="sm" className="contactMeGithub" variant="dark" href="https://github.com/theborderliner">
                         <FaGithub/>
                     </Button>
                 </Col>
