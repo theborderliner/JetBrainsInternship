@@ -1,0 +1,11 @@
+.switcher {
+  width: 56px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: var(--brand);
+  display: flex;
+  align-items: center;
+}
+
+@import "switcher__button";
+@import "switcher_space-h_xxxs";
