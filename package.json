@@ -1,35 +1,22 @@
 {
   "name": "cv_site",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage": "http://thebordeliner.github.io/JetBrainsInternship",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.34",
-    "@types/react": "^16.9.31",
-    "@types/react-dom": "^16.9.6",
-    "bootstrap": "^4.4.1",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.13.1",
-    "react-icons": "^3.9.0",
-    "react-scripts": "3.4.1",
-    "reactstrap": "^8.4.1",
-    "typescript": "^3.7.5"
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "image-webpack-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --history-api-fallback --inline --progress",
     "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
