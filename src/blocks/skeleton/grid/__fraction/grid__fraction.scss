@@ -1,0 +1,19 @@
+@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_2";
+@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_3";
+@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_4";
+@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_5";
+@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_8";
+
+.grid__fraction {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .grid_m-columns_10 .grid__fraction {
+        grid-column: span 10;
+    }
+
+    .grid_m-columns_12 .grid__fraction {
+        grid-column: span 12;
+    }
+}
