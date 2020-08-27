@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@import "src/blocks/content/switcher/switcher";
+
+@import "header__switch-container";
+@import "header__switch-icon";
+@import "header__switch-wrapper";
