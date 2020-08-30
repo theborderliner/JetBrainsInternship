@@ -1,0 +1,10 @@
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@import "first-screen__image";
+@import "first-screen__description";
+@import "first-screen__button";
