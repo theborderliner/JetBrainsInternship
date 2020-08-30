@@ -1,4 +1,29 @@
 .layout {
   width: 100%;
   background-color: var(--background-default);
+  min-width: 320px;
 }
+
+@media screen and (min-width: 320px) {
+  .layout {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .layout {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .layout {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@import "layout_height_full";
+@import "__container/layout__container";
