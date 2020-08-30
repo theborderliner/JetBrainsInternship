@@ -1,6 +1,13 @@
 .theme_style_light {
-  --background-default: #fff;
-  --brand: #568fff;
+  --background-default: #ffffff;
+  --background-active: #000000;
+
   --border-default: #e5e5e5;
-  --text-color: #444452;
+
+  --brand: #568fff;
+
+  --text-default: #000000;
+  --text-ghost: #25282a;
+  --text-default-inverse: #ffffff;
+  --text-title: #568fff;
 }
