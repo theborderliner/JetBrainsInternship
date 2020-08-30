@@ -1,11 +1,17 @@
 .switcher {
+  --switcher-active: var(--brand);
+  --switcher-inactive: #808080;
+
   width: 56px;
   height: 30px;
   border-radius: 100px;
-  background-color: var(--brand);
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
+
 
 @import "switcher__button";
 @import "switcher_space-h_xxxs";
+@import "switcher__active";
+@import "switcher__inactive";

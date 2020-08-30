@@ -3,5 +3,6 @@
   height: 26px;
   border-radius: 100%;
   border: var(--border-thin);
-  background-color: var(--background-default);
+  background-color: #ffffff;
+  transition: transform .2s ease-in;
 }
