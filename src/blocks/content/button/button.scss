@@ -1,0 +1,23 @@
+.button {
+  min-width: 280px;
+  min-height: 52px;
+  background-color: var(--brand);
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition: all .2s ease-in;
+}
+
+.button:hover {
+  background-color: var(--background-active);
+}
+
+@import "_indent-v/button_indent-v_l";
+@import "_indent-v/button_indent-v_m";
+@import "_indent-v/button_indent-v_xl";
+
+@import "button_pressed";
