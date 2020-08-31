@@ -1,3 +1,15 @@
 .grid {
   display: grid;
 }
+
+@import "_col-gap/grid_col-gap_full";
+@import "_col-gap/grid_col-gap_half";
+@import "_col-gap/grid_col-gap_two-thirds";
+
+@import "_m-columns/grid_m-columns_10";
+@import "_m-columns/grid_m-columns_12";
+
+@import "_row-gap/grid_row-gap_full";
+@import "_row-gap/grid_row-gap_half";
+
+@import "__fraction/grid__fraction";

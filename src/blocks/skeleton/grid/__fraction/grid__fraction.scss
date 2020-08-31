@@ -1,9 +1,3 @@
-@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_2";
-@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_3";
-@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_4";
-@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_5";
-@import "src/blocks/skeleton/grid/__fraction/_m-col/grid__fraction_m-col_8";
-
 .grid__fraction {
 
 }
@@ -17,3 +11,10 @@
         grid-column: span 12;
     }
 }
+
+@import "_m-col/grid__fraction_m-col_2";
+@import "_m-col/grid__fraction_m-col_3";
+@import "_m-col/grid__fraction_m-col_4";
+@import "_m-col/grid__fraction_m-col_5";
+@import "_m-col/grid__fraction_m-col_7";
+@import "_m-col/grid__fraction_m-col_8";
