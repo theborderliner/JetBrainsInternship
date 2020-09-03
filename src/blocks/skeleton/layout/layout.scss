@@ -1,24 +1,28 @@
+$screen-l: 1000px;
+$screen-m: 650px;
+$screen-s: 320px;
+
 .layout {
   width: 100%;
   background-color: var(--background-default);
-  min-width: 320px;
+  min-width: $screen-s;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $screen-s) {
   .layout {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: $screen-m) {
   .layout {
     padding-left: 40px;
     padding-right: 40px;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: $screen-l) {
   .layout {
     padding-left: 150px;
     padding-right: 150px;
