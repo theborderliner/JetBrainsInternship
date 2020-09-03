@@ -1,5 +1,14 @@
+$screen-s: 650px;
+
 .section {
   width: 100%;
+  margin-bottom: var(--space-xxxxxl);
+}
+
+@media screen and (max-width: $screen-s) {
+  .section {
+    display: block;
+  }
 }
 
 @import "section__title";

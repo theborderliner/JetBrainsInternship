@@ -1,6 +1,14 @@
+$screen-s: 650px;
+
 .section__title {
   display: block;
   text-transform: uppercase;
   text-align: right;
 }
 
+
+@media screen and (max-width: $screen-s) {
+  .section__title {
+    text-align: left;
+  }
+}
