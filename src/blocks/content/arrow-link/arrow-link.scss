@@ -1,0 +1,24 @@
+.arrow-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+.arrow-link::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: var(--text-size-xl);
+  transition: transform .2s ease-in;
+  color: var(--brand);
+  margin-left: 5px;
+  background: url("/src/static/img/arrow.png");
+  background-size: cover;
+}
+
+.arrow-link:hover::after {
+  transform: translateX(7px);
+}
+
+@import "arrow-link__text";
