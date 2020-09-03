@@ -9,6 +9,7 @@ require("../blocks/skeleton/screen/screen.scss")
 require("../blocks/content/text/text.scss")
 require("../blocks/content/image/image.scss")
 require("../blocks/content/section/section.scss")
+require("../blocks/content/arrow-link/arrow-link.scss")
 
 require("../blocks/content/button/button.js")
 require("../blocks/content/button/button.scss")
