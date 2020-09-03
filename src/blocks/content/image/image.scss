@@ -1,7 +1,17 @@
+$screen-s: 650px;
+
 .image {
   width: 340px;
   height: 340px;
   background: url("../../../static/img/me_site.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: $screen-s) {
+  .image {
+    width: 170px;
+    height: 170px;
+  }
 }
 
 @import "image_rounded";
