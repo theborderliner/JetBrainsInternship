@@ -1,2 +1,11 @@
+$screen-s: 650px;
+
 .background__content {
+}
+
+@media screen and (max-width: $screen-s) {
+  .background__content {
+    padding-left: var(--space-m);
+    padding-top: var(--space-m);
+  }
 }

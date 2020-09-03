@@ -1,8 +1,9 @@
 .description-screen {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 @import "description-screen__description";
+@import "description-screen__cv";
+@import "description-screen__arrow";
