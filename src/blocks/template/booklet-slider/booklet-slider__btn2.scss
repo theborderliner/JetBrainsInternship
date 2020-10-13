@@ -1,0 +1,10 @@
+.booklet-slider__btn2 {
+}
+
+.booklet-slider__btn2:checked ~ .slider__controls .slider__label[for="booklet-slider__btn2"]:before {
+  background-color: transparent;
+}
+
+.booklet-slider__btn2:checked ~ .slider__inner .slider__slides {
+  transform: translate(-50%);
+}
