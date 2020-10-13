@@ -158,7 +158,8 @@
     </div>
     <div class="description-screen__cv layout">
         <div class="description-screen__arrow layout__container">
-            <a class="arrow-link" href="#">
+            <a class="arrow-link"
+               href="https://docs.google.com/document/d/1rr3fsvDxuzb63-l3sxqDqhRDMFm3jQUKw2RtsKC9I-k/edit">
                 <span class="arrow-link__text text text_view_large text_color_default">
                     View my CV
                 </span>
@@ -225,7 +226,7 @@
 </section>
 <section class="contact-info screen" id="contact-info">
     <div class="contact-info__cross icon"></div>
-    <div class="layout">
+    <div class="contact-info__layout-wrapper layout">
         <div class="contact-info__layout layout__container layout__container_align_center">
             <span class="contact-info__title text text_view_title text_color_default">
                 Contact info
@@ -236,14 +237,14 @@
             </span>
             <div class="contact-info__sender-row grid grid_col-gap_full grid_m-columns_10">
                 <div class="contact-info__senderName grid__fraction grid__fraction_m-col_5">
-                    <input type="text" class="text-input" placeholder="Enter your name">
+                    <input type="text" required class="text-input" placeholder="Enter your name">
                 </div>
                 <div class="contact-info__senderEmail grid__fraction grid__fraction_m-col_5">
-                    <input type="email" class="text-input" placeholder="Enter your e-mail">
+                    <input type="email" required class="text-input" placeholder="Enter your e-mail">
                 </div>
             </div>
             <div class="contact-info__senderMessage">
-                <textarea class="contact-info__textArea text-input" placeholder="Enter your message"></textarea>
+                <textarea class="contact-info__textArea text-input" required placeholder="Enter your message" id="contact-info__textArea"></textarea>
             </div>
             <div class="contact-info__attachTTWrapper">
                 <input type="file" class="contact-info__attachTTInput" id="contact-info__attachTTInput">
@@ -293,5 +294,7 @@
         </div>
     </div>
 </footer>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 </body>
 </html>
