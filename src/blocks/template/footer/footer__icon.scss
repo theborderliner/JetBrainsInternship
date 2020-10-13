@@ -1,0 +1,14 @@
+$screen-s: 650px;
+
+.footer__icon {
+  display: none;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: $screen-s) {
+  .footer__icon {
+    display: block;
+  }
+}

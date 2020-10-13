@@ -1,0 +1,13 @@
+$screen-s: 650px;
+
+
+.footer__label {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: $screen-s) {
+  .footer__label {
+    display: none;
+  }
+}

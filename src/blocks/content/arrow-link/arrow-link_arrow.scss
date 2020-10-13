@@ -1,0 +1,12 @@
+.arrow-link_arrow {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: var(--text-size-xl);
+  transition: transform .2s ease-in;
+  color: var(--brand);
+  margin-left: 5px;
+  background-size: cover;
+  vertical-align: middle;
+}

@@ -1,0 +1,18 @@
+$screen-s: 650px;
+
+.footer {
+  background-color: var(--background-default);
+}
+
+@media screen and (max-width: $screen-s) {
+  .footer {
+    height: 197px;
+  }
+}
+
+@import "footer__container";
+@import "footer__description";
+@import "footer__soc";
+@import "footer__contact";
+@import "footer__label";
+@import "footer__icon";

@@ -1,0 +1,10 @@
+.icon__github {
+}
+
+.theme_style_light .icon__github{
+  background-image: url("/src/static/img/github_l.png");
+}
+
+.theme_style_dark .icon__github{
+  background-image: url("/src/static/img/github_d.png");
+}

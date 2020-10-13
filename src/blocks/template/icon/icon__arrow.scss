@@ -1,0 +1,10 @@
+.icon__arrow {
+}
+
+.theme_style_light .icon__arrow{
+  background-image: url("/src/static/img/arrow_l.png");
+}
+
+.theme_style_dark .icon__arrow{
+  background-image: url("/src/static/img/arrow_d.png");
+}

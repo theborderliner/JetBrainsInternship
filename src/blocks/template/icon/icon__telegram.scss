@@ -1,0 +1,10 @@
+.icon__telegram {
+}
+
+.theme_style_light .icon__telegram{
+  background-image: url("/src/static/img/telegram_l.png");
+}
+
+.theme_style_dark .icon__telegram{
+  background-image: url("/src/static/img/telegram_d.png");
+}

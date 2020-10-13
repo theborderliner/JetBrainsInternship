@@ -1,0 +1,11 @@
+.icon__email {
+
+}
+
+.theme_style_light .icon__email{
+  background-image: url("/src/static/img/email_l.png");
+}
+
+.theme_style_dark .icon__email{
+  background-image: url("/src/static/img/email_d.png");
+}

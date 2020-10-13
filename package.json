@@ -2,7 +2,7 @@
   "name": "cv_site",
   "version": "0.2.0",
   "private": true,
-  "homepage": "http://thebordeliner.github.io/JetBrainsInternship",
+  "homepage": "http://thebordeliner.github.io/JetBrainsInternship/new",
   "dependencies": {
     "css-loader": "^4.2.2",
     "file-loader": "^6.0.0",

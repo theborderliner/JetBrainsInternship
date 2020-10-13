@@ -5,7 +5,7 @@ module.exports = {
     output: {
         path: __dirname + "/build", // Folder to store generated bundle
         filename: "project.js",  // Name of generated bundle after build
-        publicPath: "/" // public URL of the output directory when referenced in a browser
+        publicPath: "/" // public URL of the output directory when referenced in a browser "./" for deploy
     },
     module: {
         rules: [

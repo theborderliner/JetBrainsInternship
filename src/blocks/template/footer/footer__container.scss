@@ -1,0 +1,15 @@
+$screen-s: 650px;
+
+.footer__container {
+  height: 100%;
+  padding: var(--space-l) var(--space-xxxl);
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: $screen-s) {
+  .footer__container {
+    padding: var(--space-xxl) var(--space-xxl);
+    flex-direction: column;
+  }
+}
