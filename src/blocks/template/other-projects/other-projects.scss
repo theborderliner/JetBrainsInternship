@@ -1,2 +1,7 @@
 .other-projects {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--space-xs);
 }
+
+@import "other-projects__title";
