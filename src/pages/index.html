@@ -35,7 +35,7 @@
     </div>
     <div class="first-screen__button layout">
         <div class="layout__container layout__container_align_center">
-            <button class="button button_indent-v_l">
+            <button class="get-in-touch-button button button_indent-v_l">
                 <span class="text text_view_large text_color_inverse">
                     Get in touch
                 </span>
@@ -167,7 +167,7 @@
         </div>
     </div>
 </section>
-<section class="projects-screen screen">
+<section class="projects-screen screen screen_height_shrink">
     <div class="featured-project layout">
         <div class="layout__container layout__container_align_center">
             <div class="section grid grid_col-gap_full grid_col-gap_full grid_m-columns_10">
@@ -222,7 +222,42 @@
             </div>
         </div>
     </div>
-    <!--    <div class="other-projects layout__container"></div>-->
+</section>
+<section class="contact-info screen" id="contact-info">
+    <div class="contact-info__cross icon"></div>
+    <div class="layout">
+        <div class="contact-info__layout layout__container layout__container_align_center">
+            <span class="contact-info__title text text_view_title text_color_default">
+                Contact info
+            </span>
+            <span class="contact-info__comment text text_view_default text_color_default">
+                I open for new projects. You can send me an approximate technical task or
+                just your vision of a project.
+            </span>
+            <div class="contact-info__sender-row grid grid_col-gap_full grid_m-columns_10">
+                <div class="contact-info__senderName grid__fraction grid__fraction_m-col_5">
+                    <input type="text" class="text-input" placeholder="Enter your name">
+                </div>
+                <div class="contact-info__senderEmail grid__fraction grid__fraction_m-col_5">
+                    <input type="email" class="text-input" placeholder="Enter your e-mail">
+                </div>
+            </div>
+            <div class="contact-info__senderMessage">
+                <textarea class="contact-info__textArea text-input" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="contact-info__attachTTWrapper">
+                <input type="file" class="contact-info__attachTTInput" id="contact-info__attachTTInput">
+                <label for="contact-info__attachTTInput" class="contact-info__attachTT">
+                    <span class="text text_view_default">Attach technical task</span>
+                </label>
+            </div>
+            <button class="contact-info__sendBtn button">
+                    <span class="text text_view_strong text_color_inverse">
+                        Submit
+                    </span>
+            </button>
+        </div>
+    </div>
 </section>
 <footer class="footer">
     <div class="footer__container">
