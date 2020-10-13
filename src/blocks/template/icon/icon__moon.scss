@@ -1,0 +1,10 @@
+.icon__moon {
+}
+
+.theme_style_light .icon__moon {
+  background-image: url("/src/static/img/moon_l.png");
+}
+
+.theme_style_dark .icon__moon {
+  background-image: url("/src/static/img/moon_d.png");
+}

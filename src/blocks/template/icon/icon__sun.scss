@@ -1,0 +1,10 @@
+.icon__sun {
+}
+
+.theme_style_light .icon__sun{
+  background-image: url("/src/static/img/sun_l.png");
+}
+
+.theme_style_dark .icon__sun{
+  background-image: url("/src/static/img/sun_d.png");
+}
