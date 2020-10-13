@@ -1,0 +1,9 @@
+.slider__controls {
+  //position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -40px;
+  z-index: 100;
+  text-align: right;
+  margin-top: var(--space-m);
+}

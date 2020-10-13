@@ -1,0 +1,12 @@
+.slider {
+  position: relative;
+  background: var(--background-default);
+  margin-bottom: var(--space-xs);
+}
+
+@import "slider__controls";
+@import "slider__img";
+@import "slider__inner";
+@import "slider__input";
+@import "slider__label";
+@import "slider__slides";
