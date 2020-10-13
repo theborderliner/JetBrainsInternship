@@ -14,6 +14,7 @@ require("../blocks/content/text/text.scss")
 require("../blocks/content/image/image.scss")
 require("../blocks/content/section/section.scss")
 require("../blocks/content/arrow-link/arrow-link.scss")
+require("../blocks/content/slider/slider.scss")
 
 require("../blocks/content/button/button") // Button js
 require("../blocks/content/button/button.scss") // Button styles
@@ -25,6 +26,7 @@ require("../blocks/content/switcher/switcher.scss") //Switcher styles
 require("../blocks/template/header/header.scss")
 require("../blocks/template/first-scren/first-screen.scss")
 require("../blocks/template/icon/icon.scss")
+require("../blocks/template/booklet-slider/booklet-slider.scss")
 
 require("../blocks/template/theme-switcher/theme-switcher") // Theme switcher js
 require("../blocks/template/theme-switcher/theme-switcher.scss") // Theme switcher styles

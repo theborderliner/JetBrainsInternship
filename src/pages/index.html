@@ -43,7 +43,7 @@
         </div>
     </div>
 </section>
-<section class="description-screen screen">
+<section class="description-screen screen screen_height_shrink">
     <div class="description-screen__description layout">
         <div class="layout__container layout__container_align_center">
             <div class="background section grid grid_col-gap_full grid_col-gap_full grid_m-columns_10">
@@ -91,7 +91,7 @@
                         JavaScript (ES6)
                     </li>
                     <li class="skilz__item text text_view_default text_color_default">
-                        Java
+                        Java (9)
                     </li>
                     <li class="skilz__item text text_view_default text_color_default">
                         C++ (17)
@@ -110,15 +110,15 @@
                     <li class="skilz__item text text_view_default text_color_default">
                         React-Native
                     </li>
-                    <li class="skilz__item text text_view_default text_color_default">
-                        Redux
-                    </li>
+                    <!--                    <li class="skilz__item text text_view_default text_color_default">-->
+                    <!--                        Redux-->
+                    <!--                    </li>-->
                     <li class="skilz__item text text_view_default text_color_default">
                         Django
                     </li>
-                    <li class="skilz__item text text_view_default text_color_default">
-                        (Spring)
-                    </li>
+                    <!--                    <li class="skilz__item text text_view_default text_color_default">-->
+                    <!--                        (Spring)-->
+                    <!--                    </li>-->
                 </ul>
                 <ul class="skilz__column grid__fraction grid__fraction_m-col_3">
                     <li class="skilz__subtitle text text_view_default text_color_default">
@@ -168,10 +168,61 @@
     </div>
 </section>
 <section class="projects-screen screen">
-    <div class=" layout">
-        <div class="featured-project layout__container"></div>
-        <div class="other-projects layout__container"></div>
+    <div class="featured-project layout">
+        <div class="layout__container layout__container_align_center">
+            <div class="section grid grid_col-gap_full grid_col-gap_full grid_m-columns_10">
+                <div class="featured-project__title grid__fraction grid__fraction_m-col_3">
+                    <span class="section__title text text_view_large text_color_default">
+                        Featured project
+                    </span>
+                </div>
+                <div class="grid__fraction grid__fraction_m-col_5">
+                    <section class="booklet-slider slider">
+                        <input class="booklet-slider__btn1 slider__input" type="radio" id="booklet-slider__btn1"
+                               name="toggle"
+                               checked>
+                        <input class="booklet-slider__btn2 slider__input" type="radio" id="booklet-slider__btn2"
+                               name="toggle">
+                        <div class="slider__inner">
+                            <div class="slider__slides">
+                                <img class="slider__img"
+                                     src="/src/static/img/bookletSlide1.png">
+                                <img class="slider__img"
+                                     src="https://avatars.mds.yandex.net/get-pdb/1907868/77e32d2e-b4ed-435e-8e48-b7903a67f37b/s1200">
+                            </div>
+                        </div>
+                        <div class="slider__controls">
+                            <label class="slider__label" for="booklet-slider__btn1"></label>
+                            <label class="slider__label" for="booklet-slider__btn2"></label>
+                        </div>
+                    </section>
+                </div>
+                <div class="grid__fraction grid__fraction_m-col_2">
+                    <span class="featured-project__description text text_view_default text_color_default">
+                        Smart school diary. Shows the timetable and helps students understand how many more specific grades
+                        they need in order to get the final grade for the discipline they will be satisfied with.
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="other-projects layout">
+        <div class="layout__container layout__container_align_center">
+            <div class="section grid grid_col-gap_full grid_col-gap_full grid_m-columns_10">
+                <div class="other-projects__title grid__fraction grid__fraction_m-col_3">
+                    <span class="section__title text text_view_large text_color_default">
+                        Other projects
+                    </span>
+                </div>
+                <div class="grid__fraction grid__fraction_m-col_7">
+                    <span class="featured-project__description text text_view_default text_color_default">
+                        Place for your idea!
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    <div class="other-projects layout__container"></div>-->
 </section>
 <footer class="footer">
     <div class="footer__container">
