@@ -1,2 +1,7 @@
 .featured-project {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--space-xxl);
 }
+
+@import "featured-project__title";
