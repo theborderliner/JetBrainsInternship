@@ -1,0 +1,11 @@
+.contact-info__attachTT {
+  width: 100%;
+  height: var(--space-xxl);
+  border: 2px solid var(--border-default);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--brand);
+  cursor: pointer;
+}

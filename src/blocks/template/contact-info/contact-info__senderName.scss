@@ -1,0 +1,10 @@
+$screen-s: 650px;
+
+.contact-info__senderName {
+}
+
+@media screen and (max-width: $screen-s) {
+  .contact-info__senderName {
+    margin-bottom: var(--space-xs);
+  }
+}

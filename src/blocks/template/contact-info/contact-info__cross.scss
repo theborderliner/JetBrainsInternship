@@ -1,0 +1,17 @@
+.contact-info__cross {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+  display: none;
+}
+
+.theme_style_light .contact-info__cross{
+  background-image: url("/src/static/img/cross_l.png");
+}
+
+.theme_style_dark .contact-info__cross{
+  background-image: url("/src/static/img/cross_d.png");
+}

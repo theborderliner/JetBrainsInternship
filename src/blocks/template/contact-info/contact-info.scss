@@ -1,0 +1,22 @@
+.contact-info {
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  display: none;
+  transition: height 0.7s ease-in;
+}
+
+@import "contact-info__attachTT";
+@import "contact-info__comment";
+@import "contact-info__sendBtn";
+@import "contact-info__senderMessage";
+@import "contact-info__senderName";
+@import "contact-info__title";
+@import "contact-info__sender-row";
+@import "contact-info__senderEmail";
+@import "contact-info__sendBtn";
+@import "contact-info__layout";
+@import "contact-info__attachTTWrapper";
+@import "contact-info__attachTTInput";
+@import "contact-info__textArea";
+@import "contact-info__cross";
