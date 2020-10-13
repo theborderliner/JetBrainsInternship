@@ -2,7 +2,7 @@
 }
 
 .booklet-slider__btn2:checked ~ .slider__controls .slider__label[for="booklet-slider__btn2"]:before {
-  background-color: transparent;
+  background-color: var(--brand);
 }
 
 .booklet-slider__btn2:checked ~ .slider__inner .slider__slides {
